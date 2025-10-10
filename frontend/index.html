@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome Sneakers</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-black bg-white px-4" data-aos="fade-down">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <span class="logo-as">as</span>
+        <span class="ms-2 fw-semibold">awesome sneakers</span>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarMenu"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="home.html">Shop</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="custom.html">Customer Service</a></li>
+          <li class="nav-item"><a class="nav-link" href="profile.html"><i class="fa-regular fa-user"></i></a></li>
+          <li class="nav-item"><a class="nav-link" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="hero-section" data-aos="fade-up">
+      <div class="hero-image">
+        <img src="imagefolder/featured-image/download.png" alt="Sneakers background" />
+      </div>
+      <div class="hero-text">
+        <h1 class="hero-logo" style="text-decoration: line-through black">as</h1>
+        <h2 class="hero-title">AWESOME SNEAKERS</h2>
+        <a href="#" class="btn btn-outline-light btn-lg mt-3">SHOP NOW</a>
+      </div>
+      <div>
+        <button
+          class="navbar-toggler d-flex align-items-center justify-content-center gap-2"
+          aria-expanded="false"
+          aria-label="Open chat"
+          id="chat-button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarMenu"
+          style="position: fixed; bottom: 20px; right: 20px; z-index: 1030; background-color: #000; color: #fff; padding: 0.75rem 1rem; border: none; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);"
+        >
+          <i class="fa-solid fa-message"></i>
+          <span class="d-none d-md-inline">Let's Chat</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="container-fluid position-relative" data-aos="zoom-in">
+      <section class="img-four my-5 text-center">
+        <div class="position-relative d-inline-block mx-auto">
+          <img
+            src="imagefolder/featured-image/download(1).png"
+            alt="Sneaker 2"
+            class="img-fluid"
+            id="sliderImg"
+          />
+          <button
+            onclick="prevslide()"
+            aria-label="Previous"
+            style="position:absolute; top:50%; left:8px; transform:translateY(-50%); z-index:2; width:44px; height:44px; border-radius:50%; display:flex; align-items:center; justify-content:center; opacity:0.95;"
+            id="prevBtn"
+          ><i class="fa-solid fa-arrow-right"></i></button>
+
+          <button
+            onclick="nextSlide()"
+            aria-label="Next"
+            style="position:absolute; top:50%; right:8px; transform:translateY(-50%); z-index:2; width:44px; height:44px; border-radius:50%; display:flex; align-items:center; justify-content:center; opacity:0.95;"
+            id="nextBtn"
+          ><i class="fa-solid fa-arrow-left"></i></button>
+        </div>
+        <img
+          src="imagefolder/featured-image/download(2).png"
+          alt="Sneaker 3"
+          class="img-fluid"
+        />
+      </section>
+    </section>
+
+    <footer class="bg-light text-dark pt-4" data-aos="fade-up">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <h4>Quick Links</h4>
+            <ul class="list-unstyled">
+              <li><a class="nav-link text-dark" href="index.html">Home</a></li>
+              <li><a class="nav-link text-dark" href="home.html">Shop</a></li>
+              <li><a class="nav-link text-dark" href="about.html">About Us</a></li>
+              <li><a class="nav-link text-dark" href="custom.html">Customer Service</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-4">
+            <h4>Contact Us</h4>
+            <p><i class="fa-solid fa-location-dot me-2"></i>Petropavlovsk-Kamchatsky</p>
+            <p><i class="fa-solid fa-phone me-2"></i>+91 80157 89769</p>
+            <p><i class="fa-solid fa-envelope me-2"></i>nandha@gmail.com</p>
+          </div>
+          <div class="col-md-4 mb-4">
+            <h4>Follow Us</h4>
+            <p>Stay connected on social media</p>
+            <div>
+              <a href="#" class="me-2"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="me-2"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <hr class="bg-dark" />
+        <div class="text-center pb-3">
+          <p>© 2025 Awesome Sneakers. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+      class="btn btn-dark"
+      style="position: fixed; bottom: 20px; right: 20px; z-index: 999; border-radius: 50%; width: 44px; height: 44px; padding: 0;"
+      aria-label="Scroll to top"
+    >
+      ↑
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+    
+  </body>
+</html>
