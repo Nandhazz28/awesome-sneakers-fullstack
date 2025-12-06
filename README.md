@@ -40,7 +40,7 @@ No admin panel & no filtering/sorting — clean and straightforward by design.
 | Database        | MongoDB               |
 | Auth            | JWT / Sessions        |
 | Version Control | Git & GitHub          |
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 {Installation & Setup}:
 git clone <repo-link>
 cd awesome-sneakers-fullstack
@@ -56,17 +56,17 @@ JWT_SECRET=<your-secret>
 {Start the server}:
 node server.js 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-🌐 Open the frontend
+{🌐 Open the frontend}:
 Simply open docs/index.html in a browser (or host docs/ as static public files).
 -----------------------------------------------------------
-📸 Preview (Optional — add later with images)
+{📸 Preview (Optional — add later with images)}:
 You can add Eaxmple:
 /docs/imagefolder/home-page-preview.png
 /docs/imagefolder/cart-preview.png
 /docs/imagefolder/login-preview.png
 ...
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-💡 Future Improvements (If you continue development)
+{💡 Future Improvements (If you continue development)}:
 | Feature                    | Impact             |
 | -------------------------- | ------------------ |
 | Payment integration        | Real checkout      |
@@ -75,7 +75,7 @@ You can add Eaxmple:
 | Order history              | Personalization    |
 | Admin dashboard            | Full store control |
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-🤝 Contributions:
+{🤝 Contributions}:
 This project is an educational portfolio app. Anyone can fork, suggest improvements, or build features on top of it.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📜 License:
