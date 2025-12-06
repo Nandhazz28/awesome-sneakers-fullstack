@@ -3,8 +3,7 @@
 A sneaker e-commerce web app built with pure HTML, CSS & JavaScript for the frontend and Node.js + Express + MongoDB for the backend.
 No frontend frameworks — everything is hand-coded. Users can browse sneakers, add to cart, log in, register, and place orders.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-               {{🚀 Core Features}}:
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+{{🚀 Core Features}}
 {🛍️ User Experience}
 
 Homepage displaying sneaker collections
@@ -32,9 +31,7 @@ Cart data saved to DB on checkout
 Order summary generated for user
 
 No admin panel & no filtering/sorting — clean and straightforward by design.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 {🛠️ Tech Stack}:
 | Layer           | Tools                 |
 | --------------- | --------------------- |
@@ -43,38 +40,6 @@ No admin panel & no filtering/sorting — clean and straightforward by design.
 | Database        | MongoDB               |
 | Auth            | JWT / Sessions        |
 | Version Control | Git & GitHub          |
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-{Folder Structure}:
-awesome-sneakers-fullstack
-├── backend
-│   ├── config/
-│   ├── middleware/
-│   ├── models/
-│   │   ├── User.js
-│   │   └── cart.js
-│   ├── routes/
-│   ├── server.js
-│   ├── package.json
-│   ├── package-lock.json
-│   └── .gitignore
-│
-└── docs
-    ├── imagefolder/
-    ├── about.html
-    ├── cart.html
-    ├── custom.html
-    ├── home.html
-    ├── index.html
-    ├── kid.html
-    ├── login.html
-    ├── men.html
-    ├── profile.html
-    ├── register.html
-    ├── women.html
-    ├── script.js
-    └── style.css
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 {Installation & Setup}:
 git clone <repo-link>
@@ -110,10 +75,10 @@ You can add Eaxmple:
 | Order history              | Personalization    |
 | Admin dashboard            | Full store control |
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-🤝 Contributions
+🤝 Contributions:
 This project is an educational portfolio app. Anyone can fork, suggest improvements, or build features on top of it.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📜 License
+📜 License:
 Free for personal and learning use. Credit appreciated if reused.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
